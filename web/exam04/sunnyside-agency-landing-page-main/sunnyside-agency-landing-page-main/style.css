@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+.herosection{
+    background-color: cyan;
+    height: 800px;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+}
+
+h1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.multisection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.diwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraphe{
+    border: 1px solid black;
+}
+
+.avis{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+
+}
+
+#emily{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#thomas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#jennie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture_bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image_gallery{
+    width: 25%;
+}
+
+.bottom_section{
+    background-color: #90D4C6;
+    display: flex;
+    justify-content: flex-end;
+}
